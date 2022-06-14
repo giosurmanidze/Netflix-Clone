@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    z-index: 1;
+    padding: 20px;
+    align-items: center;
+    position: fixed;
+    top:0;
+
+    transition-timing-function: ease-in;
+    transition: all .5s;
+}
+.navbar_black {
+    background-color: #111;
+
+}
+
+.logo {
+    width: 100px;
+    position: fixed;
+    left: 20px;
+    object-fit: contain;
+    user-select: none;
+
+}
+.emojy {
+    position: fixed;
+    right: 20px;
+    width: 40px;
+    object-fit: contain;
+    user-select: none;
+
+}
